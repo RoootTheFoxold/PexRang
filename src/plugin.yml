@@ -1,0 +1,13 @@
+## YAML Template.
+---
+name: PexRang
+main: de.rootrobo.pexrang.PexRang
+version: 1.0.0
+authors: 
+    - RootRobo
+description: PermissionsEx-Ränge von Spielern verwalten
+depend: [PermissionsEx]
+commands: 
+    rang: 
+        description: Verwaltet den Rang von einem Spieler.
+        usage: §c/rang add|remove <Spieler> <Rang>
